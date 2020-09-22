@@ -60,7 +60,7 @@ header{
 
 }
 /*Images with grid*/
-.collection{
+#grid{
     display: grid;
     padding: 10px;
     background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
@@ -76,34 +76,29 @@ header{
     'postnord burger posten'
     'postnord burger posten';
 }
-.item1{
+#item1{
     grid-area: postnord;
     background-image: url(../images/postnord.jpg);
     background-size: cover;
     background-position: center center;
 }
-
-.item2{
+#item2{
 grid-area: linnea;
 background-image: url(../images/linnea.jpg);
 background-size: cover;
 background-position: center center;
 }
-.item3{
+#item3{
     grid-area: burger;
     background-image: url(../images/burgerking.jpg);
     background-size: cover;
     background-position: center top;
  }
-.item4{
+#item4{
   grid-area: posten;
   background-image: url(../images/posten.jpg);
   background-size: cover;
   background-position: center top;
-}
-.collection > div{
-    background-color: tomato;
-    padding: 15px;
 }
 /*Jobberfarenhter*/
 .erfarenheter{
@@ -409,7 +404,7 @@ flex-wrap: wrap;
      .referenser{
          height: 1000px;
      }
-     .collection{
+     #grid{
     
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
         grid-template-areas: 
