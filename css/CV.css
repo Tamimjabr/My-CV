@@ -9,7 +9,7 @@ html{
     font-size: 16px;
 }
 /*Header*/
-.header{
+header{
     display: flex;
     flex-direction: column;
     background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
@@ -18,7 +18,7 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 #headerTxt{
-    margin-top: 2rem;
+    padding-top: 20px;
     width: 100%;
     height: 200px;
     text-align: center;
@@ -26,32 +26,38 @@ html{
     letter-spacing: 200%;
     font-size: 1.8rem;
 }
-
-.aboutMe{
+#aboutMe{
     width: 100%;
     font-size: 150%;
     display: flex;
-    flex-direction: row ;
-    flex-wrap:nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
     text-align: center;
     color:black;
 }
-.aboutMe .whoIAm div{
+#whoIAm{
+    max-width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#whoIAm div{
     background: rgb(212, 201, 181);
     border-radius: 20px;
     padding-bottom: 20px;
 }
-.aboutMe .whoIAm div h2{
+#whoIAm div h2{
     color: black;
     border-radius: 50%;
     padding: 60px 0px;
     background: linear-gradient(90deg,rgba(134, 143, 66,0.4)30%,rgba(236, 184, 71,0.6) 70%, rgba(226, 71, 89,0.8) 100%);
 }
-
 #profile-img{ 
- width: 50%;
+    width: 50%;
     height: 50%;
     border-radius: 50%;
+
 }
 /*Images with grid*/
 .collection{
@@ -99,15 +105,7 @@ background-position: center center;
     background-color: tomato;
     padding: 15px;
 }
-.whoIAm{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:15px;
-    margin: 30px;
-   
-}/*Jobberfarenhter*/
+/*Jobberfarenhter*/
 .erfarenheter{
    
     text-align: center;
@@ -396,16 +394,16 @@ flex-wrap: wrap;
 
 @media screen and (max-width:770px){
     
-    .headerTxt{      
+    #headerTxt{      
         letter-spacing: 100%;
         font-size: 100%;
     }
-   .aboutMe, .contact{
+     .contact{
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .aboutMe .whoIAm, #profile-img, .information, .mapouter{
+    .whoIAm, #profile-img, .information, .mapouter{
         width: 100%;    
       }
      .referenser{
