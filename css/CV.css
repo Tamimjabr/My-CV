@@ -117,25 +117,16 @@ header {
 }
 /*Skills*/
 .programming {
-  background-image: url(../images/Programming.jpg);
+  /* background-image: url(../images/Programming.jpg); */
   background-size: cover;
   margin-bottom: 0;
   font-size: 25px;
   padding: 40px;
 }
-.programming h1 {
-  padding: 30px;
-}
-
 .skills {
   background-color: rgba(212, 201, 181, 0.6);
   text-align: center;
   padding: 30px;
-}
-.skillsContainer {
-  width: 100%;
-  border: 3px solid black;
-  text-align: end;
 }
 .html {
   width: 100%;
@@ -149,29 +140,26 @@ header {
   width: 90%;
   background-color: #ecb847;
 }
+.java{
+  width: 70%;
+  background-color: #E51F24;
+}
 .csharp {
-  width: 60%;
+  width: 40%;
   background-color: #7f3089;
 }
-.sql {
-  width: 80%;
-  background-color: #ed6521;
-}
-.jquery {
-  width: 100%;
-  background-color: rgb(209, 146, 9);
-}
-.php {
-  width: 50%;
-  background-color: #3f4bf2;
-}
-.angular {
-  width: 20%;
-  background-color: #e23030;
-}
 .react {
-  width: 70%;
+  width: 80%;
   background-color: #7ddfff;
+}
+.nodejs{
+  width: 90%;
+  background-color: #64995F;
+}
+.express{
+  width: 90%;
+  background-color: #31312F;
+  color: white;
 }
 /*Utbildning*/
 .utbildning {
