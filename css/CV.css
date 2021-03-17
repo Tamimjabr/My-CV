@@ -1,6 +1,6 @@
 :root {
   --beige: rgb(212, 201, 181);
-  --background-pic: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  --background-pic: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
 }
 * {
   margin: 0px;
@@ -64,8 +64,8 @@ header {
   );
 }
 #profile-img {
-  width: 50%;
-  height: 50%;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
 }
 /*Images with grid*/
