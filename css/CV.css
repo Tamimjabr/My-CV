@@ -1,13 +1,11 @@
 :root {
-  --beige: rgb(212, 201, 181);
+  --beige: #a9d2ff;
   --background-pic: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
 }
 * {
   margin: 0px;
   box-sizing: border-box;
   perspective: 600px;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
 }
 html {
   font-size: 16px;
@@ -20,7 +18,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-color: var(--beige);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 #headerTxt {
   padding-top: 20px;
@@ -62,6 +60,10 @@ header {
     rgba(236, 184, 71, 0.6) 70%,
     rgba(226, 71, 89, 0.8) 100%
   );
+}
+.text-muted{
+    color: rgb(105, 103, 103);
+    font-size: 0.8rem;
 }
 #profile-img {
   height: 300px;
@@ -377,9 +379,9 @@ header {
   transform: scale(1.5);
   transform-origin: center;
   transition-duration: 1s;
-  -webkit-box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
-  -moz-box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
-  box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
+  -webkit-box-shadow: 0px 0px 49px -4px #6730EC;
+  -moz-box-shadow: 0px 0px 49px -4px #6730EC;;
+  box-shadow: 0px 0px 49px -4px #6730EC;;
 }
 
 @media screen and (max-width: 770px) {
