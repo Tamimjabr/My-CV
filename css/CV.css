@@ -55,7 +55,7 @@ header {
   padding: 40px 0px;
   border-radius: 0.5rem;
   border-bottom: 1px solid black;
-  background: linear-gradient(-45deg, #53577a 50%, #ffffff 100%);
+  background: linear-gradient(-45deg, #474857 50%, #ffffff 100%);
 }
 .text-muted {
   color: rgb(105, 103, 103);
@@ -113,7 +113,7 @@ header {
   flex-direction: column;
 }
 #job {
-  background: linear-gradient(-45deg, #53577a 50%, #ffffff 100%);
+  background: linear-gradient(-45deg, #474857 50%, #ffffff 100%);
 }
 /*Skills*/
 .programming {
