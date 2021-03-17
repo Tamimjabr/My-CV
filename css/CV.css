@@ -1,3 +1,7 @@
+:root {
+  --beige: rgb(212, 201, 181);
+  --background-pic: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+}
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -12,9 +16,10 @@ html {
 header {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
+  background-color: var(--beige);
   font-family: "Roboto", sans-serif;
 }
 #headerTxt {
@@ -23,7 +28,7 @@ header {
   height: 200px;
   text-align: center;
   text-decoration: underline;
-  letter-spacing: 200%;
+  letter-spacing: 0.5rem;
   font-size: 1.8rem;
 }
 #aboutMe {
@@ -43,7 +48,7 @@ header {
   align-items: center;
 }
 #whoIAm div {
-  background: rgb(212, 201, 181);
+  background-color: var(--beige);
   border-radius: 20px;
   padding-bottom: 20px;
 }
@@ -66,9 +71,8 @@ header {
 /*Images with grid*/
 #gridPics {
   max-width: 100%;
-
   display: grid;
-  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
   grid-template-columns: 1fr 1fr 1fr; /*3 coloums you can use repeat(3, 1fr)*/
@@ -97,12 +101,11 @@ header {
   width: 100%;
   height: 100%;
 }
-
 /*Jobberfarenhter*/
 .erfarenheter {
   text-align: center;
   margin: auto;
-  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
   font-size: 130%;
@@ -191,9 +194,8 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .utbildningar {
-  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -213,9 +215,8 @@ header {
   border-radius: 10%;
   padding: 20px 0px;
   margin-bottom: 10px;
-  background: rgb(212, 201, 181);
+  background-color: var(--beige);
 }
-
 /*Referenser*/
 .referenser {
   width: 100%;
@@ -294,7 +295,7 @@ header {
 /*making the background of the first container with a color to surround the content with this color without changing the background of the whole html*/
 .driving {
   height: 50vh;
-  background-color: rgb(212, 201, 181);
+  background-color: var(--beige);
   /*centering the second container inside the first one*/
   display: flex;
   flex-direction: row;
@@ -315,7 +316,7 @@ header {
   flex-wrap: wrap;
 }
 .license {
-  background-color: rgb(212, 201, 181);
+  background-color: var(--beige);
   padding: 50px 200px;
   font-size: 25px;
   opacity: 0.8;
@@ -328,7 +329,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: rgb(212, 201, 181);
+  background-color: var(--beige);
 }
 .information {
   font-size: 20px;
@@ -414,7 +415,7 @@ header {
     border: none;
     border-radius: 0%;
     padding: 0px 0px;
-    background: rgb(212, 201, 181);
+    background-color: var(--beige);
   }
 
   .licenseContainer {
@@ -430,7 +431,7 @@ header {
     flex-wrap: wrap;
   }
   .license {
-    background-color: rgb(212, 201, 181);
+    background-color: var(--beige);
     padding: 10px 10px;
     font-size: 18px;
     opacity: 0.8;
