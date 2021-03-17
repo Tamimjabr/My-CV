@@ -1,5 +1,5 @@
 :root {
-  --main-color: rgba(255, 255, 255,0.9);
+  --main-color: rgba(255, 255, 255, 0.9);
   --background-pic: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
 }
 * {
@@ -65,17 +65,19 @@ header {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+}
+#profile-img, #whoIAm div{
   border-top: 10px solid white;
-  border-bottom:10px solid #6c72c0 ;
+  border-bottom: 10px solid #6c72c0;
   border-left: 10px solid white;
-  border-right:10px solid#6c72c0;
+  border-right: 10px solid#6c72c0;
   transition: all 0.3s ease-in-out;
 }
-#profile-img:hover{
-  border-top: 10px solid #6c72c0 ;
-  border-bottom:10px solid white ;
-  border-left: 10px solid #6c72c0 ;
-  border-right:10px solid white;
+#profile-img:hover, #whoIAm div:hover {
+  border-top: 10px solid #6c72c0;
+  border-bottom: 10px solid white;
+  border-left: 10px solid #6c72c0;
+  border-right: 10px solid white;
 }
 /*Images with grid*/
 #gridPics {
@@ -151,9 +153,9 @@ header {
   width: 90%;
   background-color: #ecb847;
 }
-.java{
+.java {
   width: 70%;
-  background-color: #E51F24;
+  background-color: #e51f24;
 }
 .csharp {
   width: 40%;
@@ -163,13 +165,13 @@ header {
   width: 80%;
   background-color: #7ddfff;
 }
-.nodejs{
+.nodejs {
   width: 90%;
-  background-color: #64995F;
+  background-color: #64995f;
 }
-.express{
+.express {
   width: 90%;
-  background-color: #31312F;
+  background-color: #31312f;
   color: white;
 }
 /*Utbildning*/
