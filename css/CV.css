@@ -1,440 +1,443 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
-    perspective: 600px;
-   font-weight: 600;    
-   font-family: 'Roboto', sans-serif;
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  perspective: 600px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
 }
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
 /*Header*/
-header{
-    display: flex;
-    flex-direction: column;
-    background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
 }
-#headerTxt{
-    padding-top: 20px;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    text-decoration: underline;
-    letter-spacing: 200%;
-    font-size: 1.8rem;
+#headerTxt {
+  padding-top: 20px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 200%;
+  font-size: 1.8rem;
 }
-#aboutMe{
-    width: 100%;
-    font-size: 150%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap:wrap;
-    text-align: center;
-    color:black;
+#aboutMe {
+  width: 100%;
+  font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  color: black;
 }
-#whoIAm{
-    max-width:500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#whoIAm {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#whoIAm div{
-    background: rgb(212, 201, 181);
-    border-radius: 20px;
-    padding-bottom: 20px;
+#whoIAm div {
+  background: rgb(212, 201, 181);
+  border-radius: 20px;
+  padding-bottom: 20px;
 }
-#whoIAm div h2{
-    color: black;
-    border-radius: 50%;
-    padding: 60px 0px;
-    background: linear-gradient(90deg,rgba(134, 143, 66,0.4)30%,rgba(236, 184, 71,0.6) 70%, rgba(226, 71, 89,0.8) 100%);
+#whoIAm div h2 {
+  color: black;
+  border-radius: 50%;
+  padding: 60px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(134, 143, 66, 0.4) 30%,
+    rgba(236, 184, 71, 0.6) 70%,
+    rgba(226, 71, 89, 0.8) 100%
+  );
 }
-#profile-img{ 
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
+#profile-img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
 }
 /*Images with grid*/
-#gridPics{
-    max-width: 100%;
- 
-    display: grid;
-    background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    grid-template-columns: 1fr 1fr 1fr;/*3 coloums you can use repeat(3, 1fr)*/
-    grid-template-rows: auto;
-    grid-template-areas: 
+#gridPics {
+  max-width: 100%;
+
+  display: grid;
+  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  grid-template-columns: 1fr 1fr 1fr; /*3 coloums you can use repeat(3, 1fr)*/
+  grid-template-rows: auto;
+  grid-template-areas:
     "student linnea posten "
     "student birthday posten ";
-    grid-gap:5px ;
+  grid-gap: 5px;
 }
-#item1{
-    grid-area: student;
+#item1 {
+  grid-area: student;
 }
-#item2{
-    grid-area: linnea;
+#item2 {
+  grid-area: linnea;
 }
-#item3{
-    grid-area: posten;
- }
-#item4{
+#item3 {
+  grid-area: posten;
+}
+#item4 {
   grid-area: birthday;
 }
-#item1 > img, #item2 > img, #item3 > img, #item4 > img{
+#item1 > img,
+#item2 > img,
+#item3 > img,
+#item4 > img {
   width: 100%;
   height: 100%;
 }
 
 /*Jobberfarenhter*/
-.erfarenheter{
-   
-    text-align: center;
-    margin: auto;
-    background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: 130%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.erfarenheter {
+  text-align: center;
+  margin: auto;
+  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 130%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#job{
-    background: linear-gradient(90deg,rgba(134, 143, 66,0.4)30%,rgba(236, 184, 71,0.6) 70%, rgba(226, 71, 89,0.8) 100%);
-
+#job {
+  background: linear-gradient(
+    90deg,
+    rgba(134, 143, 66, 0.4) 30%,
+    rgba(236, 184, 71, 0.6) 70%,
+    rgba(226, 71, 89, 0.8) 100%
+  );
 }
 /*Skills*/
-.programming{
-background-image: url(../images/Programming.jpg);
-   background-size: cover;
-   margin-bottom: 0;
-   font-size: 25px;
-   padding: 40px;
+.programming {
+  background-image: url(../images/Programming.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+  font-size: 25px;
+  padding: 40px;
 }
-.programming h1{
-    padding: 30px;
+.programming h1 {
+  padding: 30px;
 }
 
-.skills{
-    background-color: rgba(212, 201, 181,0.6);
-    text-align: center;
-    padding: 30px;
+.skills {
+  background-color: rgba(212, 201, 181, 0.6);
+  text-align: center;
+  padding: 30px;
 }
-.skillsContainer{
-    width: 100%;
-    border: 3px solid black;
-    text-align: end; 
+.skillsContainer {
+  width: 100%;
+  border: 3px solid black;
+  text-align: end;
 }
-.html{
-    width: 100%;
-    background-color: #EC6630;
+.html {
+  width: 100%;
+  background-color: #ec6630;
 }
-.css{
-    width: 80%;
-    background-color: #379AD6;
+.css {
+  width: 80%;
+  background-color: #379ad6;
 }
-.js{
-    width: 90%;
-    background-color:#ECB847;
+.js {
+  width: 90%;
+  background-color: #ecb847;
 }
-.csharp{
-    width: 60%;
-    background-color:#7F3089;
+.csharp {
+  width: 60%;
+  background-color: #7f3089;
 }
-.sql{
-    width: 80%;
-    background-color: #ED6521;
+.sql {
+  width: 80%;
+  background-color: #ed6521;
 }
-.jquery{
-    width: 100%;
-    background-color: rgb(209, 146, 9);
+.jquery {
+  width: 100%;
+  background-color: rgb(209, 146, 9);
 }
-.php{
-    width: 50%;
-    background-color:#3F4BF2;
+.php {
+  width: 50%;
+  background-color: #3f4bf2;
 }
-.angular{
-    width: 20%;
-    background-color:#E23030;
+.angular {
+  width: 20%;
+  background-color: #e23030;
 }
-.react{
-    width: 70%;
-background-color:#7DDFFF;
+.react {
+  width: 70%;
+  background-color: #7ddfff;
 }
 /*Utbildning*/
 .utbildning {
-    font-size: 30px;
-    width:100% ;
-    height: 400px;
-    background-image: url(../images/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(245, 245, 245);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  font-size: 30px;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.utbildningar{
-    background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-       width: 100%;
-       height:auto;
-       text-align: center;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-       flex-wrap: wrap;
-       font-size: 140%;
-    
- }
- /*the containers for both utbildningar and erfarenheter*/
- .utbildningar div, .erfarenheter div{
-    width: 50vw;   
-    border-radius:10%;
-    padding: 20px 0px;
-    margin-bottom: 10px;
-    background: rgb(212, 201, 181);
- }
+.utbildningar {
+  background-image: url(../images/chris-lawton-5IHz5WhosQE-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 140%;
+}
+/*the containers for both utbildningar and erfarenheter*/
+.utbildningar div,
+.erfarenheter div {
+  width: 50vw;
+  border-radius: 10%;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  background: rgb(212, 201, 181);
+}
 
 /*Referenser*/
-.referenser{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(../images/rome.jpg);
-    background-position: center top;
-    background-size: cover;
+.referenser {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/rome.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+.grid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+}
 
+.container {
+  background-color: white;
+  height: 150px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  transform-style: preserve-3d;
+  margin: 15px;
+  font-size: 16px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  position: relative;
 }
-.grid{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap:wrap;
-    padding: 10px;
-    text-align: center;
+.front {
+  backface-visibility: hidden;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
-
-.container{
-    background-color: white;
-    height: 150px;
-    width: 250px;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
-    transition: all 1s ease-in-out;
-    transform-style: preserve-3d;
-    margin: 15px;
-    font-size: 16px;
-    font-family: cursive,Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    position: relative;
-
+.back {
+  transform: rotateY(180deg);
+  z-index: 1;
+  overflow-wrap: break-word;
+  background: white;
+  width: 100%;
+  height: 100%;
+  line-height: 150px;
 }
-.front{
-    backface-visibility: hidden;
-    z-index: 2;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;   
+.container:hover {
+  transform: rotateY(180deg);
 }
-.back{
-    transform: rotateY(180deg);
-    z-index: 1;
-    overflow-wrap: break-word;
-    background: white;
-    width: 100%;
-    height: 100%;
-    line-height:150px;
+.container.Postnord {
+  background: url(../images/postnordLogo.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.container:hover{
-    transform: rotateY(180deg);
-
+.container.GislavedGymnasium {
+  background: url(../images/GislavedGymnasiumLogo.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.container.Postnord{
-    background: url(../images/postnordLogo.jpg);
-    background-size: cover;
-    background-position: center;
-  
-}
-.container.GislavedGymnasium{
-    background: url(../images/GislavedGymnasiumLogo.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.container.Junic{
-    background: url(../images/JunicLogo.jpg);
-    background-size: cover;
-    background-position: center;
+.container.Junic {
+  background: url(../images/JunicLogo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 /*Driving license*/
 /*making the background of the first container with a color to surround the content with this color without changing the background of the whole html*/
-.driving{
+.driving {
   height: 50vh;
- background-color: rgb(212, 201, 181);
-/*centering the second container inside the first one*/
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
+  background-color: rgb(212, 201, 181);
+  /*centering the second container inside the first one*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.licenseContainer{
-width: 80%;
-height: 80%;
-background:url(../images/florian-van-duyn-lPgikJiNI5o-unsplash.jpg);
-background-position: center center;
-background-size: cover;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-
+.licenseContainer {
+  width: 80%;
+  height: 80%;
+  background: url(../images/florian-van-duyn-lPgikJiNI5o-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.license{
-    background-color: rgb(212, 201, 181);
-    padding: 50px 200px;
-    font-size: 25px;
-    opacity: 0.8;
+.license {
+  background-color: rgb(212, 201, 181);
+  padding: 50px 200px;
+  font-size: 25px;
+  opacity: 0.8;
 }
 /*contact*/
-.contact{
+.contact {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(212, 201, 181);
+}
+.information {
+  font-size: 20px;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 50%;
+  padding: 20px 0px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+.mapouter .gmap_canvas iframe {
+  width: 100%;
+  height: 90%;
+}
+.fab,
+.fas {
+  padding: 10px;
+  font-size: 150%;
+}
+.fa-facebook-square {
+  color: #4267b2;
+}
+.fa-instagram {
+  color: #9a37ac;
+}
+.fa-envelope {
+  color: #d93025;
+}
+.fa-github {
+  color: black;
+}
+.socialIcon:hover {
+  background-color: white;
+  border-radius: 50%;
+  transform: scale(1.5);
+  transform-origin: center;
+  transition-duration: 1s;
+  -webkit-box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
+  -moz-box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
+  box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
+}
+
+@media screen and (max-width: 770px) {
+  #headerTxt {
+    letter-spacing: 100%;
+    font-size: 100%;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .whoIAm,
+  #profile-img,
+  .information,
+  .mapouter {
     width: 100%;
-    height: 60%;
+  }
+  .referenser {
+    height: 1000px;
+  }
+  #gridPics {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "linnea linnea"
+      "student posten"
+      "birthday birthday";
+  }
+  .utbildningar div,
+  .erfarenheter div {
+    width: 100vw;
+    border: none;
+    border-radius: 0%;
+    padding: 0px 0px;
+    background: rgb(212, 201, 181);
+  }
+
+  .licenseContainer {
+    width: 100%;
+    height: 80%;
+    background: url(../images/florian-van-duyn-lPgikJiNI5o-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: rgb(212, 201, 181);
+    flex-wrap: wrap;
+  }
+  .license {
+    background-color: rgb(212, 201, 181);
+    padding: 10px 10px;
+    font-size: 18px;
+    opacity: 0.8;
+  }
 }
-.information{
- 
-    font-size: 20px;
-    text-align: center;
-    padding: 60px 0px;
-}
-
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:100%;
-    width:50%;
-    padding: 20px 0px;
-}
-.gmap_canvas {
-        overflow:hidden;
-        background:none!important;
-        height:500px;
-        width:100%;
-}
-.mapouter .gmap_canvas iframe{
-    width: 100%;
-    height: 90%;
-}
-.fab, .fas{
-    padding: 10px;
-    font-size: 150%;
-}
-.fa-facebook-square{
-    color: #4267b2;
-  
-}
-.fa-instagram{
-    color:#9a37ac ;
-}
-.fa-envelope{
-    color: #d93025;
-}
-.fa-github{
-    color: black;
-}
-.socialIcon:hover{
-    background-color: white;
-    border-radius: 50%;
-    transform: scale(1.5);
-    transform-origin: center;
-    transition-duration: 1s;
-    -webkit-box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
-    -moz-box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8);
-    box-shadow: 0px 0px 49px -4px rgba(185, 19, 19, 0.8); 
-}
-
-@media screen and (max-width:770px){
-    
-    #headerTxt{      
-        letter-spacing: 100%;
-        font-size: 100%;
-    }
-     .contact{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .whoIAm, #profile-img, .information, .mapouter{
-        width: 100%;    
-      }
-     .referenser{
-         height: 1000px;
-     }
-     #gridPics{
-         grid-template-columns: repeat(2, 1fr);
-         grid-template-rows: auto;
-         grid-template-areas: 
-         "linnea linnea"
-         "student posten"
-         "birthday birthday" ;
-     }
-    .utbildningar div, .erfarenheter div{
-        width: 100vw;
-        border: none;
-        border-radius: 0%;
-        padding: 0px 0px;
-        background: rgb(212, 201, 181);
-     }
-   
-      .licenseContainer{
-      width: 100%;
-      height: 80%;
-      background:url(../images/florian-van-duyn-lPgikJiNI5o-unsplash.jpg);
-      background-position: center center;
-      background-size: cover;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-      
-      }
-      .license{
-      
-          background-color: rgb(212, 201, 181);
-          padding: 10px 10px;
-          font-size: 18px;
-          opacity: 0.8;
-      }
-    
-
-}
-@media screen and (max-width:450px){
-    *{
-        font-size: 95%;
-    }
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 95%;
+  }
 }
