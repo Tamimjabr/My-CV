@@ -1,5 +1,5 @@
 :root {
-  --main-color: #a9d2ff;
+  --main-color: rgba(127, 183, 243,0.9);
   --background-pic: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
 }
 * {
@@ -18,7 +18,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-color: var(--main-color);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 #headerTxt {
   padding-top: 20px;
@@ -52,18 +52,14 @@ header {
 }
 #whoIAm div h2 {
   color: black;
-  border-radius: 50%;
-  padding: 60px 0px;
-  background: linear-gradient(
-    90deg,
-    rgba(134, 143, 66, 0.4) 30%,
-    rgba(236, 184, 71, 0.6) 70%,
-    rgba(226, 71, 89, 0.8) 100%
-  );
+  padding: 40px 0px;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid black;
+  background: linear-gradient(-45deg, #53577a 50%, #ffffff 100%);
 }
-.text-muted{
-    color: rgb(105, 103, 103);
-    font-size: 0.8rem;
+.text-muted {
+  color: rgb(105, 103, 103);
+  font-size: 0.8rem;
 }
 #profile-img {
   height: 300px;
@@ -117,12 +113,7 @@ header {
   flex-direction: column;
 }
 #job {
-  background: linear-gradient(
-    90deg,
-    rgba(134, 143, 66, 0.4) 30%,
-    rgba(236, 184, 71, 0.6) 70%,
-    rgba(226, 71, 89, 0.8) 100%
-  );
+  background: linear-gradient(-45deg, #53577a 50%, #ffffff 100%);
 }
 /*Skills*/
 .programming {
@@ -379,9 +370,9 @@ header {
   transform: scale(1.5);
   transform-origin: center;
   transition-duration: 1s;
-  -webkit-box-shadow: 0px 0px 49px -4px #6730EC;
-  -moz-box-shadow: 0px 0px 49px -4px #6730EC;;
-  box-shadow: 0px 0px 49px -4px #6730EC;;
+  -webkit-box-shadow: 0px 0px 49px -4px #6730ec;
+  -moz-box-shadow: 0px 0px 49px -4px #6730ec;
+  box-shadow: 0px 0px 49px -4px #6730ec;
 }
 
 @media screen and (max-width: 770px) {
