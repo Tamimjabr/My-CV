@@ -1,5 +1,5 @@
 :root {
-  --beige: #a9d2ff;
+  --main-color: #a9d2ff;
   --background-pic: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
 }
 * {
@@ -17,7 +17,7 @@ header {
   background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
-  background-color: var(--beige);
+  background-color: var(--main-color);
   font-family: 'Times New Roman', Times, serif;
 }
 #headerTxt {
@@ -46,7 +46,7 @@ header {
   align-items: center;
 }
 #whoIAm div {
-  background-color: var(--beige);
+  background-color: var(--main-color);
   border-radius: 20px;
   padding-bottom: 20px;
 }
@@ -217,7 +217,7 @@ header {
   border-radius: 10%;
   padding: 20px 0px;
   margin-bottom: 10px;
-  background-color: var(--beige);
+  background-color: var(--main-color);
 }
 /*Referenser*/
 .referenser {
@@ -297,7 +297,7 @@ header {
 /*making the background of the first container with a color to surround the content with this color without changing the background of the whole html*/
 .driving {
   height: 50vh;
-  background-color: var(--beige);
+  background-color: var(--main-color);
   /*centering the second container inside the first one*/
   display: flex;
   flex-direction: row;
@@ -318,7 +318,7 @@ header {
   flex-wrap: wrap;
 }
 .license {
-  background-color: var(--beige);
+  background-color: var(--main-color);
   padding: 50px 200px;
   font-size: 25px;
   opacity: 0.8;
@@ -331,7 +331,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--beige);
+  background-color: var(--main-color);
 }
 .information {
   font-size: 20px;
@@ -417,7 +417,7 @@ header {
     border: none;
     border-radius: 0%;
     padding: 0px 0px;
-    background-color: var(--beige);
+    background-color: var(--main-color);
   }
 
   .licenseContainer {
@@ -433,7 +433,7 @@ header {
     flex-wrap: wrap;
   }
   .license {
-    background-color: var(--beige);
+    background-color: var(--main-color);
     padding: 10px 10px;
     font-size: 18px;
     opacity: 0.8;
