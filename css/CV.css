@@ -1,5 +1,5 @@
 :root {
-  --main-color: white;
+  --main-color: rgba(255, 255, 255,0.9);
   --background-pic: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
 }
 * {
@@ -73,7 +73,7 @@ header {
   background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
-  grid-template-columns: 1fr 1fr 1fr; /*3 coloums you can use repeat(3, 1fr)*/
+  grid-template-columns: 1fr 1fr 1fr; /*3 coloums we can use repeat(3, 1fr)*/
   grid-template-rows: auto;
   grid-template-areas:
     "student linnea posten "
@@ -205,7 +205,7 @@ header {
 .utbildningar div,
 .erfarenheter div {
   width: 50vw;
-  border-radius: 10%;
+  border-radius: 5px;
   padding: 20px 0px;
   margin-bottom: 10px;
   background-color: var(--main-color);
