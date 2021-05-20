@@ -130,7 +130,7 @@ header {
 }
 /*Skills*/
 .skills {
-  background-color: rgba(212, 201, 181, 0.6);
+  background-color: var(--main-color);
   text-align: center;
   padding: 30px;
   font-size: 1.5rem;
