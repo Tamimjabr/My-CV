@@ -10,6 +10,9 @@
 html {
   font-size: 16px;
 }
+h2 {
+  margin-bottom: 0.5rem;
+}
 /*Header*/
 header {
   display: flex;
@@ -18,7 +21,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-color: var(--main-color);
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 #headerTxt {
   padding-top: 20px;
@@ -66,14 +69,16 @@ header {
   width: 300px;
   border-radius: 50%;
 }
-#profile-img, #whoIAm div{
+#profile-img,
+#whoIAm div {
   border-top: 10px solid white;
   border-bottom: 10px solid #6c72c0;
   border-left: 10px solid white;
   border-right: 10px solid#6c72c0;
   transition: all 0.3s ease-in-out;
 }
-#profile-img:hover, #whoIAm div:hover {
+#profile-img:hover,
+#whoIAm div:hover {
   border-top: 10px solid #6c72c0;
   border-bottom: 10px solid white;
   border-left: 10px solid #6c72c0;
@@ -86,24 +91,19 @@ header {
   background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
-  grid-template-columns: 1fr 1fr 1fr; /*3 coloums we can use repeat(3, 1fr)*/
+  grid-template-columns: 1fr 1fr ; 
   grid-template-rows: auto;
   grid-template-areas:
-    "student linnea posten "
-    "student birthday posten ";
-  grid-gap: 5px;
+    ' linnea linnea'
+    ' linnea linnea'
+    ' me me'
+    ' me me';
 }
 #item1 {
-  grid-area: student;
-}
-#item2 {
   grid-area: linnea;
 }
-#item3 {
-  grid-area: posten;
-}
-#item4 {
-  grid-area: birthday;
+#item2 {
+  grid-area: me;
 }
 #item1 > img,
 #item2 > img,
@@ -155,9 +155,9 @@ header {
   width: 40%;
   background-color: #7f3089;
 }
-.mongodb{
+.mongodb {
   width: 100%;
-  background-color: #13AA52;
+  background-color: #13aa52;
 }
 .react {
   width: 90%;
@@ -390,14 +390,6 @@ header {
   }
   .referenser {
     height: 1000px;
-  }
-  #gridPics {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "linnea linnea"
-      "student posten"
-      "birthday birthday";
   }
   .utbildningar div,
   .erfarenheter div {
