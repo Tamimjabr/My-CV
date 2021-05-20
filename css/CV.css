@@ -129,17 +129,11 @@ header {
   background: linear-gradient(-45deg, #474857 50%, #ffffff 100%);
 }
 /*Skills*/
-.programming {
-  /* background-image: url(../images/Programming.jpg); */
-  background-size: cover;
-  margin-bottom: 0;
-  font-size: 25px;
-  padding: 40px;
-}
 .skills {
   background-color: rgba(212, 201, 181, 0.6);
   text-align: center;
   padding: 30px;
+  font-size: 1.5rem;
 }
 .html {
   width: 100%;
@@ -150,7 +144,7 @@ header {
   background-color: #379ad6;
 }
 .js {
-  width: 90%;
+  width: 100%;
   background-color: #ecb847;
 }
 .java {
@@ -161,8 +155,12 @@ header {
   width: 40%;
   background-color: #7f3089;
 }
+.mongodb{
+  width: 100%;
+  background-color: #13AA52;
+}
 .react {
-  width: 80%;
+  width: 90%;
   background-color: #7ddfff;
 }
 .nodejs {
