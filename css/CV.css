@@ -266,7 +266,10 @@ header {
   position: absolute;
 }
 .back {
-  background-color: rgba(209, 202, 202, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px) saturate(100%) contrast(45%)
+    brightness(130%);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
   backface-visibility: hidden;
   transform: rotateY(180deg);
   z-index: 1;
@@ -319,6 +322,9 @@ header {
 }
 .license {
   background-color: var(--main-color);
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+          backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
   padding: 50px 200px;
   font-size: 25px;
   opacity: 0.8;
@@ -419,10 +425,8 @@ header {
     flex-wrap: wrap;
   }
   .license {
-    background-color: var(--main-color);
     padding: 10px 10px;
     font-size: 18px;
-    opacity: 0.8;
   }
 }
 @media screen and (max-width: 450px) {
