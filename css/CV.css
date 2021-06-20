@@ -91,7 +91,7 @@ header {
   background-image: var(--background-pic);
   background-attachment: fixed;
   background-size: cover;
-  grid-template-columns: 1fr 1fr ; 
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     ' linnea linnea'
@@ -150,6 +150,15 @@ header {
 .java {
   width: 70%;
   background-color: #e51f24;
+}
+.python {
+  width: 50%;
+  background: rgb(247, 206, 67);
+  background: linear-gradient(
+    266deg,
+    rgba(247, 206, 67, 1) 20%,
+    rgba(53, 106, 151, 1) 75%
+  );
 }
 .csharp {
   width: 40%;
